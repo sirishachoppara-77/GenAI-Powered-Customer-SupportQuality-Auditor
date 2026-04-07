@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.local
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# RAG index files (auto-generated, can be large)
+calliq_faiss.index
+calliq_faiss_meta.pkl
+calliq_doc_hash.txt
+
+# Alert log (auto-generated at runtime)
+calliq_alerts.json
+
+# Evaluation history (auto-generated at runtime)
+evaluations_history.csv
+
+# Audio / video files (large binary files)
+*.m4a
+*.mp3
+*.mp4
+*.wav
+*.mov
+*.avi
+*.mkv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log

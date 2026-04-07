@@ -1,2 +1,18 @@
-deepgram-sdk>=3.0.0
+# ── Core App ─────────────────────────────────────────────────────────────────
+streamlit>=1.32.0
 requests>=2.31.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+openai>=1.12.0
+
+# ── Audio / Video Transcription ───────────────────────────────────────────────
+moviepy==1.0.3          # pinned — v2.x breaks compatibility
+
+# ── RAG Pipeline (Milestone 3) ────────────────────────────────────────────────
+faiss-cpu>=1.7.4        # local vector store; pure-Python fallback built-in
+pypdf>=4.0.0            # PDF policy document ingestion
+
+# ── Reports & Alerts (Milestone 4) ───────────────────────────────────────────
+reportlab>=4.0.0        # PDF report generation
+openpyxl>=3.1.0         # Excel report generation

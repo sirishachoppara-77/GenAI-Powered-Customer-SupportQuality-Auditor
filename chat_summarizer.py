@@ -3,11 +3,12 @@ Chat/Log Summarizer using Groq API
 Usage: python chat_summarizer.py <file_path>
 """
 
+import os
 import json
 import sys
 from pathlib import Path
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
 # Groq free tier limits per model (context tokens)
 MODELS = [
