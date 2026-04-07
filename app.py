@@ -464,9 +464,9 @@ function toggleSugg(key) {
 # ============================================================================
 # API CONFIG
 # ============================================================================
-DEEPGRAM_API_KEY   = os.getenv("7f0f9f23ffcd19f0652f103047a3799bd6b85945", "")
-OPENROUTER_API_KEY = os.getenv("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", "")
-OPENAI_API_KEY     = os.getenv("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", "")
+DEEPGRAM_API_KEY   = os.getenv("YOUR_DEEPGRAM_API_KEY", "")
+OPENROUTER_API_KEY = os.getenv("YOUR_OPENROUTER_API_KEY", "")
+OPENAI_API_KEY     = os.getenv("YOUR_OPENAI_API_KEY", "")
 CSV_PATH           = "evaluations_history.csv"
 
 COMPLIANCE_KEYWORDS = [
